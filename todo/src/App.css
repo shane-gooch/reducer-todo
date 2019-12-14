@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.header {
+  margin: 2rem;
+}
+
+.todoForm {
+  margin-top: 2rem;
+}
+
+.input {
+  margin-right: 10px;
+}
+
+.todoList {
+  margin-top: 20px;
+}
+
+.todo {
+  font-size: 1.6rem;
+}
+.todo:hover {
+  cursor: pointer;
+}
